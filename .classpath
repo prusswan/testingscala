@@ -4,9 +4,17 @@
   <classpathentry output="target/scala-2.10/test-classes" path="src/test/scala" kind="src"></classpathentry>
   <classpathentry output="target/scala-2.10/test-classes" path="src/test/java" kind="src"></classpathentry>
   <classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"></classpathentry>
+  <classpathentry path="/home/prusswan/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.1.jar" kind="lib"></classpathentry>
+  <classpathentry path="/home/prusswan/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.2.jar" kind="lib"></classpathentry>
+  <classpathentry path="/home/prusswan/.ivy2/cache/junit/junit/jars/junit-4.10.jar" kind="lib"></classpathentry>
+  <classpathentry path="/home/prusswan/.ivy2/cache/org.hamcrest/hamcrest-core/jars/hamcrest-core-1.1.jar" kind="lib"></classpathentry>
   <classpathentry path="/home/prusswan/.ivy2/cache/org.scalatest/scalatest_2.10/jars/scalatest_2.10-1.9.1.jar" kind="lib"></classpathentry>
   <classpathentry path="/home/prusswan/.ivy2/cache/org.scala-lang/scala-actors/jars/scala-actors-2.10.0.jar" kind="lib"></classpathentry>
   <classpathentry path="/home/prusswan/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.10.0.jar" kind="lib"></classpathentry>
+  <classpathentry path="/home/prusswan/.ivy2/cache/org.testng/testng/jars/testng-6.1.1.jar" kind="lib"></classpathentry>
+  <classpathentry path="/home/prusswan/.ivy2/cache/org.beanshell/bsh/jars/bsh-2.0b4.jar" kind="lib"></classpathentry>
+  <classpathentry path="/home/prusswan/.ivy2/cache/com.beust/jcommander/jars/jcommander-1.12.jar" kind="lib"></classpathentry>
+  <classpathentry path="/home/prusswan/.ivy2/cache/org.yaml/snakeyaml/jars/snakeyaml-1.6.jar" kind="lib"></classpathentry>
   <classpathentry path="org.eclipse.jdt.launching.JRE_CONTAINER" kind="con"></classpathentry>
   <classpathentry path="bin" kind="output"></classpathentry>
 </classpath>

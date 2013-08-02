@@ -22,6 +22,7 @@ libraryDependencies ++= Seq(
   "org.easymock" % "easymock" % "3.2" withSources() withJavadoc(),
   "org.mockito" % "mockito-core" % "1.9.5" % "test" withSources() withJavadoc(),
   "org.scalamock" %% "scalamock-scalatest-support" % "3.0.1" % "test",
-  "org.scalamock" %% "scalamock-specs2-support" % "3.0.1" % "test")
+  "org.scalamock" %% "scalamock-specs2-support" % "3.0.1" % "test",
+  "org.scalacheck" %% "scalacheck" % "1.10.1" % "test" withSources() withJavadoc())
 
 fork := true

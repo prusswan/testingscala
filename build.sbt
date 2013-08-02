@@ -13,11 +13,15 @@ resolvers ++= Seq(
   "sonatype-releases" at "http://oss.sonatype.org/content/repositories/releases")
 
 libraryDependencies ++= Seq(
-  "org.scalatest" %% "scalatest" % "1.9.1" % "test" withSources() withJavadoc(),
+  "org.scalatest" %% "scalatest" % "2.0.M5b" % "test" withSources() withJavadoc(),
   "joda-time" % "joda-time" % "2.1" withSources() withJavadoc(),
   "org.joda" % "joda-convert" % "1.2",
   "junit" % "junit" % "4.10" withSources() withJavadoc(),
   "org.testng" % "testng" % "6.1.1" % "test" withSources() withJavadoc(),
-  "org.specs2" %% "specs2" % "2.1.1" withSources() withJavadoc())
+  "org.specs2" %% "specs2" % "2.1.1" withSources() withJavadoc(),
+  "org.easymock" % "easymock" % "3.2" withSources() withJavadoc(),
+  "org.mockito" % "mockito-core" % "1.9.5" % "test" withSources() withJavadoc(),
+  "org.scalamock" %% "scalamock-scalatest-support" % "3.0.1" % "test",
+  "org.scalamock" %% "scalamock-specs2-support" % "3.0.1" % "test")
 
 fork := true
